@@ -139,3 +139,5 @@ dmypy.json
 
 # repo specific
 outputs
+/racelineopt1
+/.vs
