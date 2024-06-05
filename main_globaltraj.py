@@ -22,7 +22,7 @@ This script has to be executed to generate an optimal trajectory based on a give
 # ----------------------------------------------------------------------------------------------------------------------
 
 # choose vehicle parameter file ----------------------------------------------------------------------------------------
-file_paths = {"veh_params_file": "racecar.ini"}
+file_paths = {"veh_params_file": "f110.ini"}
 
 # debug and plot options -----------------------------------------------------------------------------------------------
 debug = True                                    # print console messages
@@ -39,7 +39,7 @@ plot_opts = {"mincurv_curv_lin": False,         # plot curv. linearization (orig
 # select track file (including centerline coordinates + track widths) --------------------------------------------------
 # file_paths["track_name"] = "rounded_rectangle"                              # artificial track
 # file_paths["track_name"] = "handling_track"                                 # artificial track
-file_paths["track_name"] = "berlin_2018"                                    # Berlin Formula E 2018
+file_paths["track_name"] = "Melbourne_map"                                    # Berlin Formula E 2018
 # file_paths["track_name"] = "modena_2019"                                    # Modena 2019
 
 # set import options ---------------------------------------------------------------------------------------------------
